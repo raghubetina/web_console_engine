@@ -55,8 +55,10 @@ posts_data = [
   }
 ]
 
-posts_data.each do |post_attrs|
-  Post.create!(post_attrs)
+20.times do
+  posts_data.each do |post_attrs|
+    Post.create!(post_attrs)
+  end
 end
 
 puts "Created #{Post.count} posts"
