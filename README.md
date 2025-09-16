@@ -1,24 +1,6 @@
-# README
+# Web Console Engine Proof-of-Concept
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this Rails app, we experiment with building a route `/rails/console` which exposes a Rails Console via a web UI. This is intended to allow easy access to `rails console` in production for non-critical apps where security is not paramount.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Documentation for the app and for libraries used lives in `docs/`.
+- Some libraries' source code is cloned into `tmp/vendor`, for reference.
